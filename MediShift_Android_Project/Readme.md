@@ -7,5 +7,4 @@
 *Our application is currently undergoing private testing to guarantee a smooth and bug-free release. The official download link will be available shortly!*
 
 ### 🎬 Feature Video
-**Status:** `Available Soon` ⏳
-*A comprehensive feature showcase and demo video is in production. Check back soon to see the app in action!*
+**Link:** https://drive.google.com/file/d/1TI2bD4QwAXzT5YbJPAq8uLgouy7C51zm/view?usp=sharing
