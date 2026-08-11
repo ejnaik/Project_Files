@@ -1,4 +1,4 @@
-## 🌐 Links & Downloads
+## 🌐 Feature Video & Play Store
 
 > **🚧 Work In Progress:** We are currently in the final stages of development and testing. 
 
