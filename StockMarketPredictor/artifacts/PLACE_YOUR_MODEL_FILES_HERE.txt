@@ -1,0 +1,30 @@
+This file marks where your trained Phase 1 model artifacts belong.
+
+I (Claude) never had access to your actual trained Keras classifier or
+its fitted vectorizer - those came from your own training run on 21,000
+financial tweets. This session cannot generate them. Copy your real
+files into this artifacts/ folder, using these exact filenames (or set
+the matching environment variable to point at whatever you actually
+named them - see nlp_router.py's module docstring):
+
+    artifacts/
+        financial_topic_classifier.keras   <- your trained Keras model
+                                               (env override: KERAS_MODEL_FILENAME)
+        vectorizer.pkl                     <- your fitted sklearn
+                                               CountVectorizer/TfidfVectorizer
+                                               (env override: VECTORIZER_FILENAME)
+        label_encoder.pkl                  <- OPTIONAL. Your fitted sklearn
+                                               LabelEncoder mapping class
+                                               index -> topic name string.
+                                               If you don't have one, the
+                                               app will still boot but will
+                                               tag everything with
+                                               placeholder labels like
+                                               "class_7" instead of real
+                                               topic names - which breaks
+                                               Phase 2's metadata filtering
+                                               in practice. Supply this if
+                                               you have it.
+
+Once the real files are here, delete this placeholder file - it's not
+referenced by any code and is safe to remove.
